@@ -8,9 +8,9 @@ export const AddProducts = () => {
             <h1>ADD PRODUCTS</h1>
             <hr></hr>
             <label for="exampleFormControlInput1" class="form-label">Product Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name.." />
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name.." />
             <label for="exampleFormControlInput1" class="form-label">Product Price</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Price.." />
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Price.." />
             <label for="formFile" class="form-label">Add Your Product Image</label>
             <input class="form-control" type="file" id="formFile"></input>
             <div className='lower-btn'></div>
